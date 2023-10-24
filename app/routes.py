@@ -20,3 +20,8 @@ from app.models import *
 def index():
     return render_template('index.html')
 
+# Home route
+@app.route('/2')
+def index2():
+    return render_template('index2.html')
+
